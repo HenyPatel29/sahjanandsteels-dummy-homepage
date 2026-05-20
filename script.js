@@ -25,15 +25,15 @@ prevBtn.addEventListener("click", () => {
 
 const images = [
 
-  "images/product1.jpg",
-  "images/product2.jpg",
-  "images/product3.jpg",
-  "images/product4.jpg",
-  "images/product5.jpg",
-  "images/product6.jpg",
-  "images/product7.jpg",
-  "images/product8.jpg",
-  "images/product9.jpg"
+  "images/Product1.jpg",
+  "images/Product2.jpg",
+  "images/Product3.jpg",
+  "images/Product4.jpg",
+  "images/Product5.jpg",
+  "images/Product6.jpg",
+  "images/Product7.jpg",
+  "images/Product8.jpg",
+  "images/Product9.jpg"
 
 ];
 
