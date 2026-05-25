@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>Services</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="services.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<header class="navbar">
+
+<div class="logo">
+<a href="index.html">
+<img src="images/logo.png">
+</a>
+</div>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="services.html">Services</a>
+<a href="products.html">Products</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<a href="contact.html">
+<button class="nav-btn">Get Quote</button>
+</a>
+
+</header>
+
+
+<section class="service-page">
+
+<h1>Our Core Services</h1>
+
+<p class="service-subtitle">
+We provide premium steel furniture and customized interior solutions with modern design, durability, and expert craftsmanship.
+</p>
+
+<div class="services-container">
+
+<div class="service-card">
+  <img src="images/S1.jpg"
+  onclick="openServicePopup(0)"
+  style="cursor:pointer;">
+
+  <div class="service-content">
+    <h3>Custom Steel Furniture</h3>
+    <p>Premium steel furniture designed for durability, comfort, and modern living spaces.</p>
+    <ul>
+      <li>High-Quality Steel</li>
+      <li>Custom Design</li>
+      <li>Modern Finish</li>
+      <li>Long Lasting</li>
+    </ul>
+  </div>
+</div>
+
+<div class="service-card">
+  <img src="images/S2.jpg"
+  onclick="openServicePopup(1)"
+  style="cursor:pointer;">
+
+  <div class="service-content">
+    <h3>Modular Kitchen</h3>
+    <p>Smart steel kitchen solutions with organized storage.</p>
+    <ul>
+      <li>Space Saving</li>
+      <li>Custom Layout</li>
+      <li>Premium Finish</li>
+      <li>Easy Maintenance</li>
+    </ul>
+  </div>
+</div>
+
+<div class="service-card">
+  <img src="images/S3.jpg"
+  onclick="openServicePopup(2)"
+  style="cursor:pointer;">
+
+  <div class="service-content">
+    <h3>Steel Gates</h3>
+    <p>Strong and stylish steel gates built for security.</p>
+    <ul>
+      <li>Custom Designs</li>
+      <li>Rust Resistant</li>
+      <li>Heavy Duty Build</li>
+      <li>Premium Finish</li>
+    </ul>
+  </div>
+</div>
+
+<div class="service-card">
+  <img src="images/S4.jpg"
+  onclick="openServicePopup(3)"
+  style="cursor:pointer;">
+
+  <div class="service-content">
+    <h3>Steel Interior Works</h3>
+    <p>Elegant interior steel solutions for modern homes.</p>
+    <ul>
+      <li>Modern Styling</li>
+      <li>Custom Interiors</li>
+      <li>Space Efficient</li>
+      <li>Premium Quality</li>
+    </ul>
+  </div>
+</div>
+
+<div class="service-card">
+  <img src="images/S5.jpg"
+  onclick="openServicePopup(4)"
+  style="cursor:pointer;">
+
+  <div class="service-content">
+    <h3>Wardrobe Design</h3>
+    <p>Premium steel wardrobes for organized storage.</p>
+    <ul>
+      <li>Custom Sizes</li>
+      <li>Modern Look</li>
+      <li>Large Storage</li>
+      <li>Durable Build</li>
+    </ul>
+  </div>
+</div>
+
+<div class="service-card">
+  <img src="images/S6.jpg"
+  onclick="openServicePopup(5)"
+  style="cursor:pointer;">
+
+  <div class="service-content">
+    <h3>Custom Window Jali</h3>
+    <p>Stylish steel window jali for security & ventilation.</p>
+    <ul>
+      <li>Custom Patterns</li>
+      <li>Strong Steel Build</li>
+      <li>Modern Finish</li>
+      <li>Low Maintenance</li>
+    </ul>
+  </div>
+</div>
+
+</div>
+</section>
+
+
+<footer>
+
+<div class="footer-container">
+
+<div class="footer-box">
+
+<h3>Sahjanand Steel's Furniture</h3>
+
+<p>Crafting premium steel furniture solutions with a good amount of experience.
+Quality, reliability and customer satisfaction remain at the center of our work.</p>
+
+</div>
+
+
+
+<div class="footer-box">
+
+<h3>Quick Links</h3>
+
+<a href="index.html">Home</a>
+
+<a href="index.html#services">Services</a>
+
+<a href="index.html#products">Products</a>
+
+<a href="contact.html">Contact</a>
+
+</div>
+
+
+
+<div class="footer-box">
+
+    <h3>Our Services</h3>
+<p>Custom Steel Furniture</p>
+<p>Modular Steel Kitchen</p>
+<p>Steel Gates & Fabrication</p>
+<p>Interior Steel Design</p>
+<p>Installation Services</p>
+
+</div>
+
+
+
+<div class="footer-box">
+
+<h3>Contact Info</h3>
+
+<p>
+📍 SAHJANAND STEEL FURNITURE<br>
+G F, Rudveda Life Line, 17<br>
+Anand - Sojitra Rd, opp. Meldi Mata Mandir<br>
+Valasan, Anand, Gujarat 388325
+</p>
+
+<p>📞 +91 99240 47013</p>
+
+<p>✉ sahjanandsteel77@gmail.com</p>
+
+<p>🕒 Mon–Sat: 9AM–7PM</p>
+
+<p>🌤 Sunday: 10AM–5PM</p>
+
+</div>
+
+</div>
+
+
+<div class="footer-bottom">
+
+<p>© 2026 Sahjanand Steel's Furniture.All rights reserved.</p>
+
+</div>
+
+</footer>
+
+
+<div class="service-popup" id="servicePopup">
+
+  <div class="service-popup-content">
+
+    <span class="close-btn" onclick="closeServicePopup()">&times;</span>
+
+    <button class="popup-btn left" onclick="prevServiceImage()">
+      <i class="fa-solid fa-chevron-left"></i>
+    </button>
+
+    <img id="service-popup-img">
+
+    <button class="popup-btn right" onclick="nextServiceImage()">
+      <i class="fa-solid fa-chevron-right"></i>
+    </button>
+
+  </div>
+
+</div>
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
