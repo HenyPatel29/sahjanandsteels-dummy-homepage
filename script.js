@@ -1,5 +1,3 @@
-/* ---------------- SLIDER ---------------- */
-
 const slider = document.querySelector(".product-slider");
 const nextBtn = document.querySelector(".next");
 const prevBtn = document.querySelector(".prev");
@@ -14,7 +12,6 @@ if (slider && nextBtn && prevBtn) {
   });
 }
 
-/* ---------------- HOME PAGE IMAGE POPUP ---------------- */
 
 let productIndex = 0;
 
@@ -62,7 +59,6 @@ function prevImage() {
   if (img) img.src = productImages[productIndex];
 }
 
-/* ---------------- PRODUCTS DATA (DETAIL PAGE) ---------------- */
 
 const products = [
   {
@@ -121,7 +117,6 @@ const products = [
   }
 ];
 
-/* ---------------- PRODUCT DETAIL POPUP ---------------- */
 
 function openProductPopup(index) {
   const popup = document.getElementById("popup");
@@ -153,21 +148,19 @@ function openProductPopup(index) {
   popup.style.display = "flex";
 }
 
-/* ---------------- CLOSE POPUP ---------------- */
 
 function closePopup() {
   const popup = document.getElementById("popup");
   if (popup) popup.style.display = "none";
 }
 
-/* ---------------- OUTSIDE CLICK CLOSE ---------------- */
 
 window.addEventListener("click", (e) => {
   const popup = document.getElementById("popup");
   if (e.target === popup) closePopup();
 });
 
-/* ---------------- ESC KEY CLOSE ---------------- */
+
 
 document.addEventListener("keydown", (e) => {
   const popup = document.getElementById("popup");
